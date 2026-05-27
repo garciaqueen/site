@@ -1,12 +1,12 @@
-package auth;
+package org.example.auth;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
-import org.example.database.DatabaseConnection;
 import org.example.auth.Account;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import org.example.database.*;
 
 public class AccountManager {
 
